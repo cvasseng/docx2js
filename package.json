@@ -7,15 +7,17 @@
   "author": "Chris Vasseng <hello@vasseng.com>",
   "license": "MIT",
   "private": false,
-  "module": "dist/index.mjs",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "files": [
     "dist"
   ],
   "exports": {
-    "import": "./dist/index.mjs",
-    "require": "./dist/index.js"
+    "./*": {
+      "import": "./dist/*.js",
+      "types": "./dist/*.d.ts"
+    }
   },
   "scripts": {
     "build": "tsc",
