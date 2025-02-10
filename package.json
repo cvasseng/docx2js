@@ -1,6 +1,6 @@
 {
   "name": "docx2js",
-  "version": "1.1.0-alpha.0",
+  "version": "0.0.0",
   "description": "Docx parser for JavaScript/TypeScript",
   "main": "dist/index.js",
   "repository": "git@github.com:cvasseng/docx2js",
