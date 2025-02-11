@@ -8,7 +8,7 @@ Simple docx parser and transformer for JavaScript/TypeScript
 
 Good question - maybe? What I found was that I needed to be able extract more information in a structured way for further processing than the up-to-date (or maintained, as it were) packages I could find. So here we are.
 
-At the heart, the docx (or rather, the OpenXML format) is a zipped file containing a bunch of XML files, so this package is essentially a glorified XML traverser. There are quite a few intricacies to the format though, and as such is not a feature complete parser. 
+At the heart, the docx - or rather, the OpenXML format - is a zip containing a bunch of XML files, so this package is essentially a glorified XML traverser. There are quite a few intricacies to the format though, and as such this is not a feature complete parser (nor is it intended to be).
 
 ## Features
 
